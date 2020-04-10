@@ -13,9 +13,8 @@ namespace DiscriminatedUnion
         public ClassCOrClassD(ClassC c) : base(c)
         {
         }
-
-        // gives error CS1520  Method must have a return type but only if in another project
-        public ClassCOrClasssD(ClassD d) : base(d)  
+       
+        public ClassCOrClassD(ClassD d) : base(d)  
         {
         }
 
